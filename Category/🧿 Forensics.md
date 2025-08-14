@@ -7,3 +7,5 @@
 - [[Ewfmount]]
 - [[Stylesuxx]]
 - [[Hexed]]
+- [[Sleuth Kit]]
+- [[Zsteg]]
