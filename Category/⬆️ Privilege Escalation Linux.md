@@ -1,12 +1,14 @@
 #privesc 
-# Remote
+# ➖ Remote
 ```bash
 ssh USER@IP
 ```
-# Source
-- [[GTFOBins]]
+# 🛠️ Tool
+- [[Metasploit]]
 - [[Reverse Shell]]
-# Technic
+# 🌲 Resource
+- [[GTFOBins]]
+# 💡 Technic
 - [[Sudo]]
 - [[Passwd]]
 - [[SUID]]
