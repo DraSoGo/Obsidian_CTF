@@ -1,4 +1,12 @@
 #web
-- ดึง source ทั้งหมดของ web ออกมา
-- hhtrack `google.com`
-- grep -nr `“pico”` หาข้อความทั้งหมดในโฟลเดอร์นั้น
+# What
+- ดึงข้อมูล web
+# Command
+ดึง source ทั้งหมดของ web ออกมา
+```bash
+hhtrack google.com
+```
+หาข้อความทั้งหมดในโฟลเดอร์นั้น
+```bash
+grep -nr “pico”
+```

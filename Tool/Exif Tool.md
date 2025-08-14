@@ -1,3 +1,7 @@
 #reverse #forensics
+# What
 - เครื่องมือวิเคราะห์ไฟล์
-- exiftool `letter-image.jpg`
+# Command
+```bash
+exiftool letter-image.jpg
+```

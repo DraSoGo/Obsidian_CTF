@@ -19,22 +19,14 @@ Sign in User ที่มีอยู่แล้วเพื่อทับข�
 ### Command
 ```bash
 smbclient -L 172.18.0.64
-```
-```bash
 smbclient \\\\172.18.0.64\\public
-```
-```bash
 get flag.txt
 ```
 ## FTP
 ### Command
 ```bash
 ftp 172.18.0.64  (user&password = anonymous)
-```
-```bash
 passive on
-```
-```bash
 get flag.txt
 ```
 # Session Management

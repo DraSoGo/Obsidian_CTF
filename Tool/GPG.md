@@ -1,3 +1,7 @@
 #cryptography 
+# What
 - ไว้แก้ PGP
-- Example command gpg --import `tryhackme.key` gpg -d `message.gpg`
+# Command
+```bash
+Example command gpg --import tryhackme.key gpg -d message.gpg
+```

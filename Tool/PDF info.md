@@ -1,3 +1,7 @@
 #forensics 
+# What
 - เครื่องมือวิเคราะห์ PDF
-- pdfinfo `ransom-letter.pdf`
+# Command
+```bash
+pdfinfo ransom-letter.pdf
+```
