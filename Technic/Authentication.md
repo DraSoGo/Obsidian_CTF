@@ -33,3 +33,4 @@ get flag.txt
 ## Step
 1. Login
 2. Burp suit ปลอมแปลง session ตอน login (user=daftpunk → user=admin)
+[[Burp Suite]]

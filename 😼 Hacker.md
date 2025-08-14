@@ -8,12 +8,15 @@ I am DraSoGo.I like everything about computers and I love to sleep 😴
 ### Category
 [[🔍 Search]]
 [[🐧 Linux]]
-[[🌐 Web application]]
+[[🌐 Web application]]
 [[⬆️ Privilege Escalation Linux]]
-[[🔐 Cryptography]]
-[[🕸️ Network]]
-[[🧿 Forensics]]
-[[🔃 Reverse Engineering]]
+[[🔐 Cryptography]]
+[[🕸️ Network]]
+[[🧿 Forensics]]
+[[🔃 Reverse Engineering]]
+### Resource
+[[HackTrick]]
+[[PayloadsAllTheThings]]
 ## 📞 Contact me
 
 ![discord](https://img.shields.io/badge/Discord-5865F2?style=flat&logo=Discord&logoColor=FFFFFF) : [Discord](https://discordapp.com/users/738910545951850578)

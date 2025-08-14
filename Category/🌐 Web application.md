@@ -6,6 +6,8 @@
 - [[Hydra]]
 - [[Gobuster]]
 - [[SQLMap]]
+- [[Nmap]]
+- [[Metasploit]]
 # 💡Technic
 - [[Authentication]]
 - [[Web Reconnaissance]]

