@@ -1,4 +1,4 @@
-#web
+#web #network 
 # What
 - Bruteforce ได้ทุกอย่าง
 # Command
