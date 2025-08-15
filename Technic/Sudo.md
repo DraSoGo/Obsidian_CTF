@@ -1,4 +1,4 @@
-#privesc 
+	#privesc 
 # Step
 1. หาว่ามี sudo อะไรใช้ได้มั้ย
 ```bash

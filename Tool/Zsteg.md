@@ -1,4 +1,4 @@
-#forensics 
+#forensics #cryptography 
 # What
 เครื่องมือนี้เหมาะกับการหาข้อมูลซ่อน (steganography) ในไฟล์ภาพ **PNG** และ **BMP** โดยเฉพาะ
 **zsteg** เป็นเครื่องมือ CLI สำหรับตรวจหา **hidden data** ในไฟล์ภาพ โดยดูจาก

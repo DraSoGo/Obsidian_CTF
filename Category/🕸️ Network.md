@@ -38,3 +38,6 @@
 - [[Tshark]] : วิเคราะห์แพ็กเก็ตเชิงลึกแบบเดียวกับ Wireshark
 - [[Metasploit]] : Framework สำหรับโจมตีและทดสอบช่องโหว่ พร้อม payload สำเร็จรูป
 - [[Hydra]] : เครื่องมือ Brute-force รหัสผ่านสำหรับหลายโปรโตคอล
+- [[Masscan]] : สแกนพอร์ตด้วยความเร็วสูงมาก (เร็วกว่า Nmap หลายเท่า)
+- [[Ettercap]] : ดัก/แก้ไขข้อมูลในเครือข่าย
+- [[Responder]] : ดักจับ Hash (NTLMv2) และ Credential จาก Windows Network โดยการตอบกลับปลอม

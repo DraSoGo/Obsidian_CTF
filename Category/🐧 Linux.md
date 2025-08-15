@@ -1,4 +1,5 @@
 #linux
+![[linux.png]]
 # 📃 Command
 
 | **Command** | **Mean**                              | **Note**                                                                                        |
