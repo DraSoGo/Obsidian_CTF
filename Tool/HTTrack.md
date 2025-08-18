@@ -4,7 +4,7 @@
 # Command
 ดึง source ทั้งหมดของ web ออกมา
 ```bash
-hhtrack google.com
+httrack google.com
 ```
 หาข้อความทั้งหมดในโฟลเดอร์นั้น
 ```bash

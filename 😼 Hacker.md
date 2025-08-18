@@ -4,7 +4,6 @@
 
 I am DraSoGo.I like everything about computers and I love to sleep 😴
 ## 💻 About Obsidian
-
 ### Category
 [[🔍 Search]]
 [[🐧 Linux]]
