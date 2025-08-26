@@ -43,4 +43,4 @@ Digital Forensics คือ กระบวนการ เก็บ รัก�
 - [[Git]] : Git
 - [[XXD]] : จัดการไฟล์ heximal
 # 🗒️ Resource
-[[Hex]] : Hexadecimal Representation
+- [[Hex]] : Hexadecimal Representation
