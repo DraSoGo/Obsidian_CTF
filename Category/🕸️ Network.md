@@ -1,4 +1,4 @@
-#network
+		#network
 # 🏛️ OSI
 ![[OSI.png]]
 # 🎮 Protocol

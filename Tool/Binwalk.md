@@ -5,5 +5,5 @@
 ```bash
 binwalk 4_c.jpg
 binwalk 4_c.jpg -e
-binwalk --dd=".*" binwalk.jpeg
+binwalk --dd=".*" binwalk.jpeg #จะดึงทุกอย่างที่เจอ
 ```
