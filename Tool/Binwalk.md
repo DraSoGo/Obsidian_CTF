@@ -5,4 +5,5 @@
 ```bash
 binwalk 4_c.jpg
 binwalk 4_c.jpg -e
+binwalk --dd=".*" binwalk.jpeg
 ```
