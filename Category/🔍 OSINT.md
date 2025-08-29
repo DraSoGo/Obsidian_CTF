@@ -1,4 +1,4 @@
-#search
+#osint
 # 🏗️ URL Structure
 ![[url_structure.png]]
 # 📃 Command
