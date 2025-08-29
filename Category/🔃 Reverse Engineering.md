@@ -39,3 +39,4 @@
 - [[Exif Tool]] : ใช้ค้นหาร่องรอยการแก้ไขหรือที่มาของไฟล์
 - [[Decompiler]] : ใช้แปลงโค้ดคอมไพล์ (binary/executable) กลับเป็นโค้ดที่อ่านง่ายขึ้น
 - [[Radare2]] : ชุดเครื่องมือ Reverse Engineering แบบ command-line
+- [[Pylingual]] : Python Decompiler .PYC 
