@@ -8,7 +8,7 @@ I am DraSoGo.I like everything about computers and I love to sleep 😴
 [[🔍 OSINT]]
 [[🐧 Linux]]
 [[🌐 Web application]]
-[[⬆️ Privilege Escalation Linux]]
+[[⬆️ Privilege Escalation Linux]]
 [[🔐 Cryptography]]
 [[🕸️ Network]]
 [[🧿 Forensics]]

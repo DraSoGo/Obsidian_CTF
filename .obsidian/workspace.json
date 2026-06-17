@@ -11,10 +11,14 @@
             "id": "d4d1fb62d28b5116",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Resource/Python_Cheat_Sheet.md",
+                "mode": "preview",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Python_Cheat_Sheet"
             }
           }
         ]
@@ -174,11 +178,41 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "bases:Create new base": false
+      "bases:Create new base": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "obsidian-kanban:Create new board": false
     }
   },
-  "active": "4b2c419a4f267930",
+  "active": "d4d1fb62d28b5116",
   "lastOpenFiles": [
+    "Category/🔐 Cryptography.md",
+    "Resource/Python_Cheat_Sheet.md",
+    "😼 Hacker.md",
+    "Resource/HackTrick.md",
+    "Category/🔃 Reverse Engineering.md",
+    "Category/🧿 Forensics.md",
+    "Category/🕸️ Network.md",
+    "Category/⬆️ Privilege Escalation Linux.md",
+    "Category/🌐 Web application.md",
+    "Category/🐧 Linux.md",
+    "Category/🔍 OSINT.md",
+    "⬆️ Privilege Escalation Linux.md",
+    "Content.base",
+    "Technic/SSRF (Server-Side Request Forgery).md",
+    "Tool/Vulnerability Search.md",
+    "Tool/Special Search.md",
+    "Tool/Ettercap.md",
+    "Tool/Masscan.md",
+    "Tool/Hydra.md",
+    "Tool/Metasploit.md",
+    "Tool/Tshark.md",
+    "Tool/Nmap.md",
+    "Tool/Tcpdump.md",
+    "Tool/WireShark.md",
+    "Tool/Responder.md",
+    "Tool/Git.md",
+    "Tool/Steghide.md",
+    "Untitled.canvas",
     "Untitled.base",
     "Untitled 1.base"
   ]

@@ -1,1 +1,7 @@
-{}
+{
+  "cssTheme": "AnuPpuccin",
+  "theme": "obsidian",
+  "enabledCssSnippets": [
+    "normal_theme"
+  ]
+}
